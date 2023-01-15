@@ -6,25 +6,25 @@ int main()
 {
     setlocale(LC_ALL, ("Portuguese"));
     int num,num2,operacao,voltar;
-    printf(" \n \n \n BEM VINDO ¿ CALCULADORA \n \n \n");
+    printf(" \n \n \n BEM VINDO √Ä CALCULADORA \n \n \n");
     do{
-    printf("Digite os 2 n˙meros \n");
+    printf("Digite os 2 n√∫meros \n");
     scanf("%i%i",&num,&num2);
-    printf("Qual È a operaÁ„o que quer usar?? \n 1-Soma \n 2-SubtraÁ„o \n 3-MultiplicaÁ„o \n 4-Divis„o\n");
+    printf("Qual √© a opera√ß√£o que quer usar?? \n 1-Soma \n 2-Subtra√ß√£o \n 3-Multiplica√ß√£o \n 4-Divis√£o\n");
     scanf("%i",&operacao);
     switch(operacao)
     {
         case 1: printf(" OPERADOR: SOMA\n");
-                printf(" O Seu resultado È de %i \n",num+num2);break;
-        case 2: printf(" OPERADOR: SUBTRA«√O\n");
-                printf(" O Seu resultado È de %i \n",num-num2);break;
-        case 3: printf(" OPERADOR: MULTIPLICA«√O \n");
-                printf(" O Seu resultado È de %i \n",num*num2);break;
-        case 4: printf(" OPERADOR: DIVIS√O\n");
-                printf(" O Seu resultado È de %i \n",num/num2);break;
-                default: printf("Erro, repita por favor! Algo deu errado");
+                printf(" O Seu resultado √© de %i \n",num+num2);break;
+        case 2: printf(" OPERADOR: SUBTRA√á√ÉO\n");
+                printf(" O Seu resultado √© de %i \n",num-num2);break;
+        case 3: printf(" OPERADOR: MULTIPLICA√á√ÉO \n");
+                printf(" O Seu resultado √© de %i \n",num*num2);break;
+        case 4: printf(" OPERADOR: DIVIS√ÉO\n");
+                printf(" O Seu resultado √© de %i \n",num/num2);break;
+                default: printf("Erro, repita por favor! Algo deu errado");break;
     }
-    printf("Deseja de voltar ao Ìnicio? \n 1-Sim \n 2-N„o\n");
+    printf("Deseja de voltar ao √≠nicio? \n 1-Sim \n 2-N√£o\n");
     scanf("%i",&voltar);
     }while(voltar==1);
     return 0;
